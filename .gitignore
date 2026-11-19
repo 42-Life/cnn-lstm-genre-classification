@@ -1,0 +1,64 @@
+# ---------- Data (never commit) ----------
+data/
+fma_small/
+fma_metadata/
+fma_small.zip
+fma_metadata.zip
+gtzan/
+genres_original/
+images_original/
+
+# Audio and cached arrays
+*.mp3
+*.wav
+*.au
+*.zip
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+
+# ---------- Model artifacts ----------
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# ---------- Experiment tracking ----------
+wandb/
+lightning_logs/
+tensorboard/
+mlruns/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+
+# ---------- Notebooks ----------
+.ipynb_checkpoints/
+
+# ---------- Colab / Drive ----------
+drive/
+sample_data/
+/content/
+
+# ---------- Secrets and credentials ----------
+.env
+*.key
+kaggle.json
+.kaggle/
+
+# ---------- OS / editor ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

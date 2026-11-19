@@ -1,0 +1,33 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3        # macro-F1, confusion matrix, classification report
+pyyaml>=6.0              # configs/*.yaml
+tqdm>=4.65
+joblib>=1.3              # parallel preprocessing
+
+# Audio
+librosa>=0.10
+soundfile>=0.12
+audioread>=3.0           # fallback MP3 decoding (also needs ffmpeg installed)
+
+# Deep learning
+torch>=2.0               # see Colab note below
+torchaudio>=2.0          # optional, only if you use it for anything
+
+# Plotting
+matplotlib>=3.7
+seaborn>=0.12            # optional, nicer confusion matrices
+
+# Data download
+kaggle>=1.5              # GTZAN download via API
+
+# Notebooks / repo hygiene
+jupyter
+ipykernel
+nbstripout
+
+# Optional experiment tracking (pick one or neither)
+# tensorboard
+# wandb
